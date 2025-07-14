@@ -20,9 +20,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geist.className} vsc-initialized`}>
-        <ReduxProvider>
-          {children}
-        </ReduxProvider>
+          <ReduxProvider>
+            {children}
+          </ReduxProvider>
       </body>
     </html>
   );
